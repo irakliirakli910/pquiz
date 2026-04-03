@@ -42,7 +42,7 @@ function App() {
   }, []);
   return (
     <div style={{ padding: "2rem", fontFamily: "sans-serif", textAlign: "center" }}>
-      <h1>🎯 კურსი - Java For Android</h1>
+      <h1>🎯 კურსი - Python</h1>
 
       {selectedQuiz && (
         <div style={{
