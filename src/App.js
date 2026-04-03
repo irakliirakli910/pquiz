@@ -29,6 +29,8 @@ function App() {
         
       ]
     }
+    
+  
   ];
 
   const [selectedQuiz, setSelectedQuiz] = useState(null);
@@ -38,10 +40,9 @@ function App() {
     const randomIndex = Math.floor(Math.random() * quizData.length);
     setSelectedQuiz(quizData[randomIndex]);
   }, []);
-
   return (
     <div style={{ padding: "2rem", fontFamily: "sans-serif", textAlign: "center" }}>
-      <h1>🎯 კურსი - Python - ის საფუძვლები</h1>
+      <h1>🎯 კურსი - Java For Android</h1>
 
       {selectedQuiz && (
         <div style={{
